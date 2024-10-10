@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="blank">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="apple-mobile-web-app-title" content="趣味指尖小游戏">
+		<meta name="theme-color" content="#becfff" />
+		<meta name="mobile-web-app-capable" content="yes">
+
+		<title>
+			<%= htmlWebpackPlugin.options.title %>
+		</title>
+		<link rel="stylesheet" href="<%= BASE_URL %>static/index.<%= VUE_APP_INDEX_CSS_HASH %>.css" />
+		<link rel="apple-touch-icon" href="/unpackage/res/icons/1024x1024.png" />
+		<link rel="icon" href="/unpackage/res/icons/144x144.png" type="image/x-icon">
+		<link rel="shortcut icon" href="/unpackage/res/icons/144x144.png" type="image/x-icon">
+
+		<!-- Open Graph data -->
+		<!-- <meta property="og:title" content="Title Here" /> -->
+		<!-- <meta property="og:url" content="http://www.example.com/" /> -->
+		<!-- <meta property="og:image" content="http://example.com/image.jpg" /> -->
+		<!-- <meta property="og:description" content="Description Here" /> -->
+		<script>
+	
+			var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' &&
+				(CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'));
+
+			var viewportContent =
+			'width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0';
+			if (coverSupport) {
+				viewportContent += ', viewport-fit=cover';
+			}
+
+			document.write('<meta name="viewport" content="' + viewportContent + '" />');
+
+			// 加载 manifest.json
+			if (!(/iPhone|iPad|iPod/.test(navigator.userAgent))) {
+				console.log("非iOS手机端");
+				document.write('<link rel="manifest" href="manifest.json"/>');
+			}
+		</script>
+		
+	</head>
+	<body>
+		<noscript>
+			<strong>Please enable JavaScript to continue.</strong>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+	</body>
+</html>

@@ -1,0 +1,433 @@
+{
+	"name": "趣味指尖游戏",
+	"appid": "__UNI__829A345",
+	"description": "",
+	"versionName": "1.0.3.3",
+	"versionCode": 100,
+	"transformPx": false,
+	"short_name": "趣味指尖",
+	"protocol_handlers": [{
+		"protocol": "web+qwzj",
+		"url": "https://static-mp-6b7b7fdb-c892-400b-82cf-46dc3c5c32a0.next.bspapp.com/handler?url=%s"
+	}],
+	"display_override": [
+		"window-controls-overlay",
+		"standalone"
+	],
+	"icons": [
+
+		{
+			"src": "unpackage/res/icons/20x20.png",
+			"sizes": "20x20",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/29x29.png",
+			"sizes": "29x29",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/40x40.png",
+			"sizes": "40x40",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/58x58.png",
+			"sizes": "58x58",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/60x60.png",
+			"sizes": "60x60",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/72x72.png",
+			"sizes": "72x72",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/76x76.png",
+			"sizes": "76x76",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/80x80.png",
+			"sizes": "80x80",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/87x87.png",
+			"sizes": "87x87",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/96x96.png",
+			"sizes": "96x96",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/120x120.png",
+			"sizes": "120x120",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/144x144.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/152x152.png",
+			"sizes": "152x152",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/167x167.png",
+			"sizes": "167x167",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/180x180.png",
+			"sizes": "180x180",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "unpackage/res/icons/1024x1024.png",
+			"sizes": "1024x1024",
+			"type": "image/png"
+		}
+	],
+	"screenshots": [{
+			"src": "unpackage/res/icons/1170x2532.png",
+			"sizes": "1170x2532",
+			"type": "image/png",
+			"label": "手机界面"
+		},
+		{
+			"src": "unpackage/res/icons/3070x1462.png",
+			"sizes": "3070x1462",
+			"type": "image/png",
+			"label": "桌面界面",
+			"form_factor": "wide"
+		}
+	],
+	"id": "/",
+	"start_url": "/",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#FFFFFF",
+	"background_color": "#FFFFFF",
+
+	"app-plus": {
+		"usingComponents": true,
+		"nvueStyleCompiler": "uni-app",
+		"compilerVersion": 3,
+		"splashscreen": {
+			"alwaysShowBeforeRender": true,
+			"waiting": true,
+			"autoclose": true,
+			"delay": 0
+		},
+
+		"modules": {
+			"OAuth": {},
+			"Payment": {}
+		},
+
+		"distribute": {
+
+			"android": {
+				"permissions": [
+					"<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+					"<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+					"<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+					"<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.CAMERA\"/>",
+					"<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+					"<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+					"<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+					"<uses-feature android:name=\"android.hardware.camera\"/>",
+					"<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+				]
+			},
+
+			"ios": {
+				"dSYMs": false,
+				"capabilities": {
+					"entitlements": {
+						"com.apple.developer.associated-domains": [
+							"applinks:static-mp-f761ced7-e0ca-42ec-83ab-82cc4c010fdf.next.bspapp.com",
+							"applinks:static-mp-6b7b7fdb-c892-400b-82cf-46dc3c5c32a0.next.bspapp.com"
+						]
+					}
+				}
+			},
+
+			"sdkConfigs": {
+				"ad": {},
+				"oauth": {
+					"weixin": {
+						"appid": "wx11cbd08f8f915bdc",
+						"UniversalLinks": "https://static-mp-6b7b7fdb-c892-400b-82cf-46dc3c5c32a0.next.bspapp.com/uni-universallinks/__UNI__829A345/"
+					},
+					"univerify": {}
+				},
+				"share": {
+					"weixin": {
+						"appid": "wx11cbd08f8f915bdc",
+						"UniversalLinks": "https://static-mp-6b7b7fdb-c892-400b-82cf-46dc3c5c32a0.next.bspapp.com/uni-universallinks/__UNI__829A345/"
+					}
+				},
+				"payment": {
+					"alipay": {
+						"__platform__": ["ios", "android"]
+					},
+					"weixin": {
+						"__platform__": ["ios", "android"],
+						"appid": "wx11cbd08f8f915bdc",
+						"UniversalLinks": "https://static-mp-6b7b7fdb-c892-400b-82cf-46dc3c5c32a0.next.bspapp.com/uni-universallinks/__UNI__829A345/"
+					}
+				}
+			},
+			"icons": {
+				"android": {
+					"hdpi": "unpackage/res/icons/72x72.png",
+					"xhdpi": "unpackage/res/icons/96x96.png",
+					"xxhdpi": "unpackage/res/icons/144x144.png",
+					"xxxhdpi": "unpackage/res/icons/192x192.png"
+				},
+				"ios": {
+					"appstore": "unpackage/res/icons/1024x1024.png",
+					"ipad": {
+						"app": "unpackage/res/icons/76x76.png",
+						"app@2x": "unpackage/res/icons/152x152.png",
+						"notification": "unpackage/res/icons/20x20.png",
+						"notification@2x": "unpackage/res/icons/40x40.png",
+						"proapp@2x": "unpackage/res/icons/167x167.png",
+						"settings": "unpackage/res/icons/29x29.png",
+						"settings@2x": "unpackage/res/icons/58x58.png",
+						"spotlight": "unpackage/res/icons/40x40.png",
+						"spotlight@2x": "unpackage/res/icons/80x80.png"
+					},
+					"iphone": {
+						"app@2x": "unpackage/res/icons/120x120.png",
+						"app@3x": "unpackage/res/icons/180x180.png",
+						"notification@2x": "unpackage/res/icons/40x40.png",
+						"notification@3x": "unpackage/res/icons/60x60.png",
+						"settings@2x": "unpackage/res/icons/58x58.png",
+						"settings@3x": "unpackage/res/icons/87x87.png",
+						"spotlight@2x": "unpackage/res/icons/80x80.png",
+						"spotlight@3x": "unpackage/res/icons/120x120.png"
+					}
+				}
+			}
+		},
+		"uniStatistics": {
+			"enable": true
+		}
+	},
+
+	"quickapp": {},
+
+	"mp-weixin": {
+		"appid": "wxe658bbed3d0ea7e8",
+		"setting": {
+			"urlCheck": false,
+			"postcss": true,
+			"minified": true
+		},
+		"usingComponents": true,
+		"optimization": {
+			"subPackages": true
+		},
+		"uniStatistics": {
+			"enable": true
+		}
+	},
+	"mp-alipay": {
+		"usingComponents": true,
+		"uniStatistics": {
+			"enable": true
+		}
+	},
+	"mp-baidu": {
+		"usingComponents": true,
+		"uniStatistics": {
+			"enable": true
+		}
+	},
+	"mp-toutiao": {
+		"usingComponents": true,
+		"appid": "tte692902f79a46e3a01",
+		"uniStatistics": {
+			"enable": true
+		}
+	},
+	"uniStatistics": {
+		"enable": false
+	},
+	"vueVersion": "2",
+	"_spaceID": "mp-6b7b7fdb-c892-400b-82cf-46dc3c5c32a0",
+	"h5": {
+		"uniStatistics": {
+			"enable": true
+		},
+		"router": {
+			"base": "./"
+		},
+		"template": "template.html",
+		"short_name": "指尖游戏",
+		"protocol_handlers": [{
+			"protocol": "web+qwzj",
+			"url": "https://static-mp-6b7b7fdb-c892-400b-82cf-46dc3c5c32a0.next.bspapp.com/handler?url=%s"
+		}],
+		"icons": [{
+				"src": "unpackage/res/icons/20x20.png",
+				"sizes": "20x20",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/29x29.png",
+				"sizes": "29x29",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/40x40.png",
+				"sizes": "40x40",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/58x58.png",
+				"sizes": "58x58",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/60x60.png",
+				"sizes": "60x60",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/72x72.png",
+				"sizes": "72x72",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/76x76.png",
+				"sizes": "76x76",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/80x80.png",
+				"sizes": "80x80",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/87x87.png",
+				"sizes": "87x87",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/96x96.png",
+				"sizes": "96x96",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/120x120.png",
+				"sizes": "120x120",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/144x144.png",
+				"sizes": "144x144",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/152x152.png",
+				"sizes": "152x152",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/167x167.png",
+				"sizes": "167x167",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/180x180.png",
+				"sizes": "180x180",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/192x192.png",
+				"sizes": "192x192",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/512x512.png",
+				"sizes": "512x512",
+				"type": "image/png"
+			},
+			{
+				"src": "unpackage/res/icons/1024x1024.png",
+				"sizes": "1024x1024",
+				"type": "image/png"
+			}
+		],
+		"screenshots": [
+			{
+				"src": "unpackage/res/icons/1170x2532.png",
+				"sizes": "1170x2532",
+				"type": "image/png",
+				"label": "手机界面"
+			},
+			{
+				"src": "unpackage/res/icons/3070x1462.png",
+				"sizes": "3070x1462",
+				"type": "image/png",
+				"label": "桌面界面",
+				"form_factor": "wide"
+			}
+		],
+		"id": "/",
+		"start_url": "/",
+		"display": "standalone",
+		"scope": "/",
+		"theme_color": "#FFFFFF",
+		"background_color": "#FFFFFF"
+	},
+	"mp-qq": {
+		"uniStatistics": {
+			"enable": true
+		},
+		"appid": "1112400096"
+	},
+	"mp-kuaishou": {
+		"uniStatistics": {
+			"enable": true
+		}
+	},
+	"quickapp-webview-huawei": {
+		"uniStatistics": {
+			"enable": true
+		}
+	},
+	"quickapp-webview-union": {
+		"uniStatistics": {
+			"enable": true
+		}
+	}
+}
