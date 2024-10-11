@@ -17,104 +17,104 @@
 	"icons": [
 
 		{
-			"src": "/static/20x20.png",
+			"src": "./static/20x20.png",
 			"sizes": "20x20",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/29x29.png",
+			"src": "./static/29x29.png",
 			"sizes": "29x29",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/40x40.png",
+			"src": "./static/40x40.png",
 			"sizes": "40x40",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/58x58.png",
+			"src": "./static/58x58.png",
 			"sizes": "58x58",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/60x60.png",
+			"src": "./static/60x60.png",
 			"sizes": "60x60",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/72x72.png",
+			"src": "./static/72x72.png",
 			"sizes": "72x72",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/76x76.png",
+			"src": "./static/76x76.png",
 			"sizes": "76x76",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/80x80.png",
+			"src": "./static/80x80.png",
 			"sizes": "80x80",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/87x87.png",
+			"src": "./static/87x87.png",
 			"sizes": "87x87",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/96x96.png",
+			"src": "./static/96x96.png",
 			"sizes": "96x96",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/120x120.png",
+			"src": "./static/120x120.png",
 			"sizes": "120x120",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/144x144.png",
+			"src": "./static/144x144.png",
 			"sizes": "144x144",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/152x152.png",
+			"src": "./static/152x152.png",
 			"sizes": "152x152",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/167x167.png",
+			"src": "./static/167x167.png",
 			"sizes": "167x167",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/180x180.png",
+			"src": "./static/180x180.png",
 			"sizes": "180x180",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/192x192.png",
+			"src": "./static/192x192.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/512x512.png",
+			"src": "./static/512x512.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		},
 		{
-			"src": "/static/1024x1024.png",
+			"src": "./static/1024x1024.png",
 			"sizes": "1024x1024",
 			"type": "image/png"
 		}
 	],
 	"screenshots": [{
-			"src": "/static/1170x2532.png",
+			"src": "./static/1170x2532.png",
 			"sizes": "1170x2532",
 			"type": "image/png",
 			"label": "手机界面"
 		},
 		{
-			"src": "/static/3070x1462.png",
+			"src": "./static/3070x1462.png",
 			"sizes": "3070x1462",
 			"type": "image/png",
 			"label": "桌面界面",
@@ -206,33 +206,33 @@
 			},
 			"icons": {
 				"android": {
-					"hdpi": "/static/72x72.png",
-					"xhdpi": "/static/96x96.png",
-					"xxhdpi": "/static/144x144.png",
-					"xxxhdpi": "/static/192x192.png"
+					"hdpi": "./static/72x72.png",
+					"xhdpi": "./static/96x96.png",
+					"xxhdpi": "./static/144x144.png",
+					"xxxhdpi": "./static/192x192.png"
 				},
 				"ios": {
-					"appstore": "/static/1024x1024.png",
+					"appstore": "./static/1024x1024.png",
 					"ipad": {
-						"app": "/static/76x76.png",
-						"app@2x": "/static/152x152.png",
-						"notification": "/static/20x20.png",
-						"notification@2x": "/static/40x40.png",
-						"proapp@2x": "/static/167x167.png",
-						"settings": "/static/29x29.png",
-						"settings@2x": "/static/58x58.png",
-						"spotlight": "/static/40x40.png",
-						"spotlight@2x": "/static/80x80.png"
+						"app": "./static/76x76.png",
+						"app@2x": "./static/152x152.png",
+						"notification": "./static/20x20.png",
+						"notification@2x": "./static/40x40.png",
+						"proapp@2x": "./static/167x167.png",
+						"settings": "./static/29x29.png",
+						"settings@2x": "./static/58x58.png",
+						"spotlight": "./static/40x40.png",
+						"spotlight@2x": "./static/80x80.png"
 					},
 					"iphone": {
-						"app@2x": "/static/120x120.png",
-						"app@3x": "/static/180x180.png",
-						"notification@2x": "/static/40x40.png",
-						"notification@3x": "/static/60x60.png",
-						"settings@2x": "/static/58x58.png",
-						"settings@3x": "/static/87x87.png",
-						"spotlight@2x": "/static/80x80.png",
-						"spotlight@3x": "/static/120x120.png"
+						"app@2x": "./static/120x120.png",
+						"app@3x": "./static/180x180.png",
+						"notification@2x": "./static/40x40.png",
+						"notification@3x": "./static/60x60.png",
+						"settings@2x": "./static/58x58.png",
+						"settings@3x": "./static/87x87.png",
+						"spotlight@2x": "./static/80x80.png",
+						"spotlight@3x": "./static/120x120.png"
 					}
 				}
 			}
@@ -297,105 +297,105 @@
 			"url": "https://static-mp-6b7b7fdb-c892-400b-82cf-46dc3c5c32a0.next.bspapp.com/handler?url=%s"
 		}],
 		"icons": [{
-				"src": "/static/20x20.png",
+				"src": "./static/20x20.png",
 				"sizes": "20x20",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/29x29.png",
+				"src": "./static/29x29.png",
 				"sizes": "29x29",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/40x40.png",
+				"src": "./static/40x40.png",
 				"sizes": "40x40",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/58x58.png",
+				"src": "./static/58x58.png",
 				"sizes": "58x58",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/60x60.png",
+				"src": "./static/60x60.png",
 				"sizes": "60x60",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/72x72.png",
+				"src": "./static/72x72.png",
 				"sizes": "72x72",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/76x76.png",
+				"src": "./static/76x76.png",
 				"sizes": "76x76",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/80x80.png",
+				"src": "./static/80x80.png",
 				"sizes": "80x80",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/87x87.png",
+				"src": "./static/87x87.png",
 				"sizes": "87x87",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/96x96.png",
+				"src": "./static/96x96.png",
 				"sizes": "96x96",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/120x120.png",
+				"src": "./static/120x120.png",
 				"sizes": "120x120",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/144x144.png",
+				"src": "./static/144x144.png",
 				"sizes": "144x144",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/152x152.png",
+				"src": "./static/152x152.png",
 				"sizes": "152x152",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/167x167.png",
+				"src": "./static/167x167.png",
 				"sizes": "167x167",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/180x180.png",
+				"src": "./static/180x180.png",
 				"sizes": "180x180",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/192x192.png",
+				"src": "./static/192x192.png",
 				"sizes": "192x192",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/512x512.png",
+				"src": "./static/512x512.png",
 				"sizes": "512x512",
 				"type": "image/png"
 			},
 			{
-				"src": "/static/1024x1024.png",
+				"src": "./static/1024x1024.png",
 				"sizes": "1024x1024",
 				"type": "image/png"
 			}
 		],
 		"screenshots": [
 			{
-				"src": "/static/1170x2532.png",
+				"src": "./static/1170x2532.png",
 				"sizes": "1170x2532",
 				"type": "image/png",
 				"label": "手机界面"
 			},
 			{
-				"src": "/static/3070x1462.png",
+				"src": "./static/3070x1462.png",
 				"sizes": "3070x1462",
 				"type": "image/png",
 				"label": "桌面界面",
